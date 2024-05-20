@@ -1,0 +1,35 @@
+
+    .job-image img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .card h3 {
+        margin-bottom: 1rem;
+    }
+    .card p {
+        margin-bottom: 0.5rem;
+    }
+    .btn-custom {
+        background-color: #4CAF50; /* Green background */
+        color: white; /* White text */
+        border-radius: 25px; /* Rounded corners */
+        padding: 10px 20px; /* Padding */
+        font-size: 1rem; /* Font size */
+        transition: background-color 0.3s ease; /* Transition for hover effect */
+    }
+    .btn-custom:hover {
+        background-color: #45a049; /* Darker green on hover */
+        text-decoration: none; /* Remove underline on hover */
+    }
+    .btn-custom:active {
+        background-color: #3e8e41; /* Darker green when clicked */
+    }
+    .btn-custom:focus {
+        outline: none; /* Remove focus effect */
+    }
+    
